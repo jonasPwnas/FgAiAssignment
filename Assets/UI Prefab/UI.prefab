@@ -4185,6 +4185,7 @@ MonoBehaviour:
   m_fillTime: 1
   m_closeAction: {fileID: -2421727737645052548, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_fadeSpeed: 4
+  playerInput: {fileID: 0}
 --- !u!225 &7745089001761288859
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -9278,7 +9279,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5201107838437710326
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14451,6 +14452,7 @@ MonoBehaviour:
   m_fillTime: 1
   m_closeAction: {fileID: -2421727737645052548, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_fadeSpeed: 4
+  playerInput: {fileID: 0}
 --- !u!225 &3827485826443088988
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -16725,6 +16727,7 @@ MonoBehaviour:
   m_fillTime: 1
   m_closeAction: {fileID: -2421727737645052548, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_fadeSpeed: 4
+  playerInput: {fileID: 0}
 --- !u!225 &917452115066425340
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -24863,6 +24866,7 @@ MonoBehaviour:
   m_fillTime: 1
   m_closeAction: {fileID: -2421727737645052548, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_fadeSpeed: 4
+  playerInput: {fileID: 0}
 --- !u!225 &5908999308166623746
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -29546,6 +29550,7 @@ MonoBehaviour:
   m_fillTime: 1
   m_closeAction: {fileID: -2421727737645052548, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_fadeSpeed: 4
+  playerInput: {fileID: 0}
 --- !u!225 &6223531661136571302
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -30272,6 +30277,7 @@ MonoBehaviour:
   m_fillTime: 1
   m_closeAction: {fileID: -2421727737645052548, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_fadeSpeed: 4
+  playerInput: {fileID: 0}
 --- !u!225 &6383148008955199438
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -32211,6 +32217,7 @@ MonoBehaviour:
   m_fillTime: 1
   m_closeAction: {fileID: -2421727737645052548, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_fadeSpeed: 4
+  playerInput: {fileID: 0}
 --- !u!225 &5266829065634655912
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -40808,6 +40815,7 @@ MonoBehaviour:
   m_fillTime: 1
   m_closeAction: {fileID: -2421727737645052548, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_fadeSpeed: 4
+  playerInput: {fileID: 0}
 --- !u!225 &5814950958434944757
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -41320,6 +41328,7 @@ MonoBehaviour:
   m_fillTime: 1
   m_closeAction: {fileID: -2421727737645052548, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_fadeSpeed: 4
+  playerInput: {fileID: 0}
 --- !u!225 &4568421523861795236
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -42209,7 +42218,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 9, y: -482}
+  m_AnchoredPosition: {x: 9, y: -433}
   m_SizeDelta: {x: -617.3466, y: -1042.1945}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9119211216789857862
@@ -46145,6 +46154,7 @@ MonoBehaviour:
   m_fillTime: 1
   m_closeAction: {fileID: -2421727737645052548, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_fadeSpeed: 4
+  playerInput: {fileID: 0}
 --- !u!225 &4323825553484007792
 CanvasGroup:
   m_ObjectHideFlags: 0

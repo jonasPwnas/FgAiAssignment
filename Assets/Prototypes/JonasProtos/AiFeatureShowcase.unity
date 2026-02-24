@@ -2570,6 +2570,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doorKillsThreshold: 1
+  doorLoop:
+    Guid:
+      Data1: -773090664
+      Data2: 1124109872
+      Data3: -222908797
+      Data4: 943068267
+    Path: event:/Interacts/ElevatorMovingLoop
+  doorStart:
+    Guid:
+      Data1: 1375042291
+      Data2: 1207812432
+      Data3: 838727307
+      Data4: -460300667
+    Path: event:/Interacts/ElevatorStarting
 --- !u!65 &792979970
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2909,6 +2923,80 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &863322869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 863322872}
+  - component: {fileID: 863322871}
+  - component: {fileID: 863322870}
+  m_Layer: 0
+  m_Name: BosssTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &863322870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863322869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dbb3f7799bd68c43a7ee87ea87b75ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicLoop:
+    Guid:
+      Data1: 1555317770
+      Data2: 1338957283
+      Data3: -577204557
+      Data4: -191576257
+    Path: event:/Music/BossMusic
+  bossHealth: {fileID: 950921843}
+--- !u!65 &863322871
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863322869}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 256
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 16127
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &863322872
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863322869}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 38.169975, y: 1.18, z: 84.9418}
+  m_LocalScale: {x: 40.384, y: 8.1544, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &892178707
 GameObject:
   m_ObjectHideFlags: 0
@@ -3189,6 +3277,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942361374}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &950921843 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8237951867653670023, guid: 00eebf61c34b9a34e8a136ddce95c6c1, type: 3}
+  m_PrefabInstance: {fileID: 1624323325}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &950921845 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 320228352258331312, guid: 00eebf61c34b9a34e8a136ddce95c6c1, type: 3}
+  m_PrefabInstance: {fileID: 1624323325}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950921843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 110e95902298f9b459e87735605925ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &970986269
 GameObject:
   m_ObjectHideFlags: 0
@@ -3356,6 +3460,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doorKillsThreshold: 2
+  doorLoop:
+    Guid:
+      Data1: -773090664
+      Data2: 1124109872
+      Data3: -222908797
+      Data4: 943068267
+    Path: event:/Interacts/ElevatorMovingLoop
+  doorStart:
+    Guid:
+      Data1: 1375042291
+      Data2: 1207812432
+      Data3: 838727307
+      Data4: -460300667
+    Path: event:/Interacts/ElevatorStarting
 --- !u!65 &1052042256
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3583,7 +3701,7 @@ Transform:
   m_GameObject: {fileID: 1086365395}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10, y: -0.14, z: 40.9}
+  m_LocalPosition: {x: 39.9, y: 12.03, z: 100.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3961,6 +4079,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doorKillsThreshold: 2
+  doorLoop:
+    Guid:
+      Data1: -773090664
+      Data2: 1124109872
+      Data3: -222908797
+      Data4: 943068267
+    Path: event:/Interacts/ElevatorMovingLoop
+  doorStart:
+    Guid:
+      Data1: 1375042291
+      Data2: 1207812432
+      Data3: 838727307
+      Data4: -460300667
+    Path: event:/Interacts/ElevatorStarting
 --- !u!65 &1221701525
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4867,6 +4999,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doorKillsThreshold: 2
+  doorLoop:
+    Guid:
+      Data1: -773090664
+      Data2: 1124109872
+      Data3: -222908797
+      Data4: 943068267
+    Path: event:/Interacts/ElevatorMovingLoop
+  doorStart:
+    Guid:
+      Data1: 1375042291
+      Data2: 1207812432
+      Data3: 838727307
+      Data4: -460300667
+    Path: event:/Interacts/ElevatorStarting
 --- !u!1001 &1380342166
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5537,6 +5683,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6010901948166546628, guid: 00eebf61c34b9a34e8a136ddce95c6c1, type: 3}
+      propertyPath: bossHealthBar
+      value: 
+      objectReference: {fileID: 950921845}
     - target: {fileID: 6316100712288146643, guid: 00eebf61c34b9a34e8a136ddce95c6c1, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -5674,6 +5824,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doorKillsThreshold: 3
+  doorLoop:
+    Guid:
+      Data1: -773090664
+      Data2: 1124109872
+      Data3: -222908797
+      Data4: 943068267
+    Path: event:/Interacts/ElevatorMovingLoop
+  doorStart:
+    Guid:
+      Data1: 1375042291
+      Data2: 1207812432
+      Data3: 838727307
+      Data4: -460300667
+    Path: event:/Interacts/ElevatorStarting
 --- !u!65 &1724107102
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6502,6 +6666,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4630698889380506017, guid: 96f8d73ba6c8ce64f96e29e84115798f, type: 3}
+      propertyPath: maxHealth
+      value: 450
+      objectReference: {fileID: 0}
     - target: {fileID: 5589242351839841894, guid: 96f8d73ba6c8ce64f96e29e84115798f, type: 3}
       propertyPath: m_Name
       value: BossCombatConfig
@@ -6804,7 +6972,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: FollowMouselookCam
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1477740947149654015, guid: 3d98db22f9c95b646835c0208aa7f9db, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1353279490514263564, guid: 3d98db22f9c95b646835c0208aa7f9db, type: 3}
@@ -6883,7 +7052,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3436036888649313783, guid: a6b53dde2e061924c97963558a88a561, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.24
+      value: 16.2
       objectReference: {fileID: 0}
     - target: {fileID: 3436036888649313783, guid: a6b53dde2e061924c97963558a88a561, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6891,7 +7060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3436036888649313783, guid: a6b53dde2e061924c97963558a88a561, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -44.82
+      value: -45.5
       objectReference: {fileID: 0}
     - target: {fileID: 3436036888649313783, guid: a6b53dde2e061924c97963558a88a561, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6960,3 +7129,4 @@ SceneRoots:
   - {fileID: 1895057636}
   - {fileID: 2119234344}
   - {fileID: 1727734151}
+  - {fileID: 863322872}
