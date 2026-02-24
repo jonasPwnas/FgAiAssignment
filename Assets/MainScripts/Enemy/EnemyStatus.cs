@@ -10,7 +10,11 @@ public class EnemyStatus : MonoBehaviour, IDamageableElementalSource
     //Delegates
     public delegate void BossIsDeaderThanDisco();
     public static BossIsDeaderThanDisco OnBossIsDeaderThanDisco;
+
+    [Header("Door reference, for showcase level")]
+    [SerializeField] private OpenDoorOnEnemiesKilled coolDoor;
     
+    [Header("Enemy settings")]
     [SerializeField] private bool isBossEnemy = false;
     [SerializeField] private float maxHealth = 100f;
     [SerializeField] private ElementTypes.ElementType thisElementType;
@@ -193,6 +197,9 @@ public class EnemyStatus : MonoBehaviour, IDamageableElementalSource
             m_healthBar.StopUsingHealthbar();
             DropElementCharges();
             m_audio.DeathSfx();
+            
+            if(coolDoor!=null)
+                coolDoor.TryOpenDoor();
             
             if(isBossEnemy)
                 OnBossIsDeaderThanDisco?.Invoke(); //ooooh yeah
