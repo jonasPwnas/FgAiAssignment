@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2534262202563100106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1201285008651778137}
+  - component: {fileID: 4978974272933567120}
+  m_Layer: 0
+  m_Name: TwoDeeAudioPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1201285008651778137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2534262202563100106}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.039120384, y: 0, z: 0, w: 0.9992345}
+  m_LocalPosition: {x: 0.5761335, y: -0.06887287, z: 8.611749}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: -4.484, y: 0, z: 0}
+--- !u!114 &4978974272933567120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2534262202563100106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 557318cc740889f4b95b9da8451a7dbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambianceLoop:
+    Guid:
+      Data1: -1124547014
+      Data2: 1105499459
+      Data3: 524465314
+      Data4: 640949300
+    Path: event:/Ambiance/AmbLoop

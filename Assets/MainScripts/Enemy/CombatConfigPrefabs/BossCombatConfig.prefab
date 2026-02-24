@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9004654862420734655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8170047401934490736}
+  - component: {fileID: 6565457432552377454}
+  - component: {fileID: 374414887365428281}
+  - component: {fileID: 8489736301992094315}
+  - component: {fileID: 6976049796692511357}
+  - component: {fileID: 4826507722225950981}
+  - component: {fileID: 6455512888062433197}
+  - component: {fileID: 479195246565511957}
+  m_Layer: 0
+  m_Name: BossCombatConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8170047401934490736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9004654862420734655}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6565457432552377454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9004654862420734655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a86154b65a066db4db1d453097628811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateWeight: 4
+  stateCooldown: 5
+  useDistance: 1
+  minActivationDistance: 1.7
+  maxActivationDistance: 2.6
+  thisCombatStateTag: 0
+  fsmOwner: {fileID: 0}
+--- !u!114 &374414887365428281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9004654862420734655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d4d9d837fa3a64ab4ee1a692354b06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateWeight: 0.66
+  stateCooldown: 0.5
+  useDistance: 0
+  minActivationDistance: 6
+  maxActivationDistance: 20
+  thisCombatStateTag: 0
+  fsmOwner: {fileID: 0}
+  stopMoveToDistance: 2.5
+--- !u!114 &8489736301992094315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9004654862420734655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45fb5cf30d007b74a89e19d33229950d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateWeight: 5.29
+  stateCooldown: 8
+  useDistance: 1
+  minActivationDistance: 1.7
+  maxActivationDistance: 2.6
+  thisCombatStateTag: 0
+  fsmOwner: {fileID: 0}
+--- !u!114 &6976049796692511357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9004654862420734655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3769adbe62ef3054aa99532dc9705ea4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateWeight: 0.001
+  stateCooldown: 0.1
+  useDistance: 0
+  minActivationDistance: 1
+  maxActivationDistance: 20
+  thisCombatStateTag: 0
+  fsmOwner: {fileID: 0}
+--- !u!114 &4826507722225950981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9004654862420734655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79e6edcbc4c3dc41af6e05c5efddda0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateWeight: 9
+  stateCooldown: 17
+  useDistance: 1
+  minActivationDistance: 8
+  maxActivationDistance: 20
+  thisCombatStateTag: 0
+  fsmOwner: {fileID: 0}
+--- !u!114 &6455512888062433197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9004654862420734655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 875545d2fe7114141be78a7a30d297b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateWeight: 7.77
+  stateCooldown: 7
+  useDistance: 1
+  minActivationDistance: 1.7
+  maxActivationDistance: 3
+  thisCombatStateTag: 0
+  fsmOwner: {fileID: 0}
+--- !u!114 &479195246565511957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9004654862420734655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceda02bc53c9f854c8b11219a5065b77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateWeight: 7.36
+  stateCooldown: 0.2
+  useDistance: 0
+  minActivationDistance: 1
+  maxActivationDistance: 10
+  thisCombatStateTag: 0
+  fsmOwner: {fileID: 0}
+  stopMoveAwayDistance: 5.5
